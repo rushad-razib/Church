@@ -1,0 +1,475 @@
+/* For Desktop or Standard Devices */
+/* Navigation Css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed";
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+.navbar{
+    background: #0D0D0D;
+}
+.navbar-brand{
+    padding-right: 112px;
+}
+.navbar-nav li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 28px;
+}
+.navbar-nav li a:hover{
+    color: white;
+}
+.butn{
+    padding: 20px 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D0D0D;
+    background: #FFD2A4;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+/* Banner Css */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 128px 0;
+}
+.banner-content h6{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.banner-content h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 32px;
+}
+.banner-content .content-footer{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 64px;
+    padding-left: 24px;
+}
+.banner-content .content-footer::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 14px;
+    bottom: 12%;
+    left: 0;
+    background: #FFD2A4;
+}
+
+/* Relevant Css */
+
+#relevant{
+    padding: 128px 0;
+}
+.heading h6{
+    color: #161722;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.heading h2{
+    color: #161722;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-content{
+    background: #FFF5EB;
+    padding: 80px 80px 64px 80px;
+    position: relative;
+}
+.card-content::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 16px;
+    background: #FFD2A4;
+    bottom: 0;
+    left: 0;
+}
+.card-content i{
+    padding: 12px;
+    background: #FFD2A4;
+    color: #161722;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.card-content h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: #161722;
+    padding-top: 24px;
+    text-transform: uppercase;
+}
+.card-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+}
+
+/* Compassion Css */
+#comp{
+    padding: 128px 0;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.mid-img img{
+    padding-top: 72px;
+}
+.comp-footer{
+    padding-top: 64px;
+}
+.comp-footer h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+    text-transform: uppercase;
+}
+.comp-footer h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: #161722;
+    text-transform: uppercase;
+}
+.comp-footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+}
+.comp-footer a{
+    color: #161722;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.comp-footer a:hover{
+    font-weight: 600;
+}
+.comp-footer a i{
+    color: #161722;
+    padding-left: 6px;
+}
+
+/* Benefit Css */
+#benefit{
+    padding: 128px 0;
+    background: #DDDDDD;
+}
+.ben-card{
+    position: relative;
+    overflow: hidden;
+    padding-top: 64px;
+}
+.ben-card .overlay{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    background-image: linear-gradient(to top, #060606, #00000005);
+    padding: 32px;
+    transition: all linear .3s;
+}
+.ben-card:hover .overlay{
+    bottom: 0px;
+    transition: all linear .3s;
+}
+.ben-card .overlay h5{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.ben-card .overlay p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+/* Sermon Css */
+#sermon{
+    padding: 128px 0;
+}
+.sermon-spacing{
+    padding-bottom: 64px;
+}
+.sermon-content{
+    background: #FFF5EB;
+    padding: 60px 80px;
+    position: relative;
+}
+.sermon-content .sermon-date{
+    position: absolute;
+    top: 42px;
+    right: 32px;
+    text-align: right;
+}
+.sermon-content .sermon-date h5{
+    font-weight: 700;
+    font-size: 24px;
+    color: #161722;
+    line-height: 0;
+}
+.sermon-content .sermon-date h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #161722;
+    padding: 0px;
+}
+.sermon-content h6{
+    background-image: linear-gradient(to right, #A54E2B, #DC9853);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sermon-content h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #161722;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sermon-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161722;
+}
+.icon-box svg{
+    width: 30px;
+    height: 30px;
+}
+.icon-box .icon-content p{
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.register-butn{
+    padding-top: 56px;
+    padding-bottom: 24px;
+}
+.register-butn .drk-butn{
+    padding: 24px 64px;
+    background: #161722;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFD3A5;
+    border-radius: 12px;
+}
+
+.sermon-img{
+    background-image: url(../images/sermons.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.view-sermon{
+    font-size: 24px;
+    font-weight: 400;
+    color: #161722;
+    transition: all linear .3s;
+}
+.view-sermon i{
+    padding-top: 46px;
+    padding-left: 11px;
+}
+.view-sermon:hover{
+    text-decoration: underline;
+    transition: all linear .3s;
+}
+
+/* World Css */
+#world{
+    background-image: url(../images/world_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.world-content{
+    background: #FFFFFF;
+    margin: 128px 0px;
+    padding: 72px 48px 90px 48px;
+    position: relative;
+}
+.world-content::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 16px;
+    width: 100%;
+    background: #FFD2A4;
+}
+.world-content .world-content-left{
+    max-width: 60%;
+}
+.world-content .world-content-right{
+    max-width: 40%;
+}
+.world-content .world-content-right i{
+    color: #FFF5EB;
+    font-size: 180px;
+}
+.world-content .world-content-left h2{
+    color: #161722;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.world-content .world-content-left p{
+    color: #161722;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 16px;
+    padding-right: 70px;
+}
+
+/* Blog Css */
+
+#blog{
+    padding: 128px 0;
+}
+.blog-post{
+    padding: 48px 32px 41px 32px;
+    background: #FFF5EB;
+    position: relative;
+}
+.blog-post:hover:after{
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #FFD0A0;
+    transition: all linear .3s;
+}
+.blog-post h6{
+    background-image: linear-gradient(to right, #A54E2B, #DC9853);
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.blog-post h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #161722;
+}
+.blog-post p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #161722;
+}
+.blog-post .blog-data{
+    padding-top: 48px;
+}
+.blog-post .blog-data h4{
+    color: #161722;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.5px;
+}
+.blog-post .blog-data h5{
+    color: #161722;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Footer Css */
+#footer{
+    background: #161722;
+    padding: 64px 0;
+    color: #FFFFFF;
+}
+.footer-left img{
+    max-height: 40px;
+    max-width: 167.44px;
+}
+.footer-left p{
+    padding-top: 16px;
+}
+.footer-left ul{
+    padding: 0;
+}
+.footer-center-left h4{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.footer-center-left ul{
+    padding: 0;
+}
+.footer-center-left ul li{
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer-center-left ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-center-left ul li:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.footer-center-right h4{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.footer-center-right .icon-list i{
+    color: #FFD2A4;
+    font-size: 16px;
+}
+.footer-center-right .icon-list i:hover{
+    scale: 1.5 150%;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.footer-center-right .icon-list i:not(:last-child){
+    padding-right: 20px;
+}
+
+.footer-right h3{
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 32px;
+}
+.footer-right form input[type=email]{
+    width: 100%;
+    padding: 20px;
+    background: #161722;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF26;
+    border-radius: 12px;
+}
+.footer-right form{
+    position: relative;
+}
+.footer-right form button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+}
+.mobile-spacing{
+    padding-bottom: 0;
+}

@@ -1,0 +1,110 @@
+/* Mobile Css */
+@media (max-width: 576px) {
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .banner-content{
+        text-align: center;
+    } 
+    .banner-content .content-footer::before {
+        left: 50px;
+    }
+    #relevant {
+        padding: 64px 0;
+    }
+    .card-content {
+        text-align: center;
+    }
+    .card-content {
+        margin-bottom: 20px;
+    }
+    #comp {
+        padding: 0px 0 64px 0;
+    }
+    .heading p {
+        padding-bottom: 25px;
+        padding-top: 10px;
+    }
+    .comp-footer {
+        padding-top: 32px;
+    }
+    #benefit {
+        padding: 64px 0;
+    }
+    .ben-card {
+        padding-top: 32px;
+    }
+    .ben-card:focus .overlay {
+        bottom: -25px;
+        transition: all linear .3s;
+    }
+    #sermon {
+        padding: 64px 0;
+    }
+    .sermon-spacing {
+        padding-bottom: 32px;
+    }
+    #blog {
+        padding: 64px 0;
+    }
+    .blog-post {
+        padding: 24px;
+        margin-bottom: 20px;
+    }
+    .footer-center-left ul li:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .card-content {
+        padding: 25px 25px 25px 25px;
+    }
+    #relevant {
+        padding: 64px 0;
+    }
+    #comp {
+        padding: 32px 0 64px 0;
+    }
+    .comp-footer {
+        padding-top: 32px;
+    }
+    #benefit {
+        padding: 64px 0;
+    }
+    .ben-card {
+        position: relative;
+        overflow: hidden;
+        padding-top: 32px;
+    }
+    .ben-card .overlay {
+        bottom: -120px;
+    }
+    .ben-card:focus .overlay {
+        bottom: -25px;
+        transition: all linear .3s;
+    }
+    #sermon {
+        padding: 64px 0;
+    }
+    .sermon-spacing {
+        padding-bottom: 32px;
+    }
+    .world-content .world-content-left {
+        max-width: 70%;
+    }
+    .world-content .world-content-right {
+        max-width: 30%;
+    }
+    .world-content .world-content-left h2 {
+        font-size: 38px;
+    }
+    #blog {
+        padding: 64px 0;
+    }
+    .blog-post {
+        margin-bottom: 20px;
+    }
+    .footer-center-left ul li:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}
